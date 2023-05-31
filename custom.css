@@ -1,0 +1,246 @@
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: gray !important;
+}
+
+a {
+  color: gray; !important
+  text-decoration: underline;
+}
+
+.form-check-input:checked {
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.form-check-input[type=checkbox]:indeterminate {
+  background-color: gray !important;
+  border-color: gray !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
+}
+
+.form-range::-webkit-slider-thumb {
+  width: 1rem;
+  height: 1rem;
+  margin-top: -0.25rem;
+  background-color: gray !important;
+  border: 0;
+  border-radius: 1rem;
+  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+          appearance: none;
+}
+
+.form-range::-moz-range-thumb {
+  width: 1rem;
+  height: 1rem;
+  background-color: gray !important;
+  border: 0;
+  border-radius: 1rem;
+  -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -moz-appearance: none;
+       appearance: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.btn-primary:disabled, .btn-primary.disabled {
+  color: #fff;
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.btn-outline-primary {
+  color: gray !important;
+  border-color: gray !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
+  color: #fff;
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.btn-outline-primary:disabled, .btn-outline-primary.disabled {
+  color: gray !important;
+  background-color: transparent;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: gray !important;
+  text-decoration: underline;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: gray !important;
+}
+
+.dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
+  color: #fff;
+  background-color: gray !important;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white !important;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: gray !important;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  color: gray !important;
+  text-decoration: none;
+  background-color: #fff;
+  border: 0.125rem solid #dee2e6;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: gray !important;
+  transition: width 0.6s ease;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.link-primary {
+  color: gray !important;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgb(128,128,128,.7) !important;
+}
+
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: gray !important;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: gray !important;
+  }
+  
+  .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: gray !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.25);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: gray !important;
+  border-color: gray !important;
+	}
+	
+.btn-primary:hover {
+  color: #fff;
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.btn-primary:enabled, .btn-primary.enabled {
+  color: #fff;
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.btn-info {
+  color: #000;
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.btn-info:disabled, .btn-info.disabled {
+  color: #000;
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.btn-outline-info {
+  color: gray !important;
+  border-color: gray !important;
+}
+
+.btn-outline-info:hover {
+  color: #000;
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.btn-check:checked + .btn-outline-info, .btn-check:active + .btn-outline-info, .btn-outline-info:active, .btn-outline-info.active, .btn-outline-info.dropdown-toggle.show {
+  color: #000;
+  background-color: gray !important;
+  border-color: gray !important;
+}
+
+.btn-outline-info:disabled, .btn-outline-info.disabled {
+  color: gray !important;
+  background-color: transparent;
+}
+
+.link-info {
+  color: gray !important;
+}
+
+.border-info {
+  border-color: gray !important;
+}
+
+.text-info {
+  --bs-text-opacity: 1;
+  color: gray !important;
+}
+
+.bg-info {
+  --bs-bg-opacity: 1;
+  background-color: gray!important;
+}
